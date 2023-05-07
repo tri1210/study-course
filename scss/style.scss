@@ -1182,7 +1182,7 @@ footer {
                     height: 100%;
 
                     path {
-                        fill: #7d7d7d;
+                        fill: #26243c;
                     }
                 }
             }
@@ -1211,7 +1211,7 @@ footer {
         font-size: 14px;
         font-weight: 600;
         text-transform: uppercase;
-        color: #fff;
+        color: #7e7d7d;
         text-align: center;
     }
 
@@ -1219,19 +1219,19 @@ footer {
         text-align: center;
         font-size: 38px;
         font-weight: 700;
-        color: #c9c4ff;
+        color: #fff;
         margin: 15px 0px 40px 0px;
     }
 
     .courses {
-        background-color: #7d7d7d;
+        background-color: #26243c;
         padding: 50px 0px;
 
         .container {
             .course-list {
                 .item {
-                    background-color: #8f8c8c;
-                    // background: white;
+                    background-color: #26243c;
+                    border: 1px solid #7e7d7d;
                     border-radius: 5px;
 
                     &:hover .item-image img {
@@ -1308,7 +1308,7 @@ footer {
                                 margin-left: 5px;
 
                                 i {
-                                    color: #c9c4ff;
+                                    color: #1545CB;
                                     font-size: 12px;
                                 }
                             }
@@ -1318,12 +1318,12 @@ footer {
                             margin: 15px 0px;
 
                             a {
-                                color: #333;
+                                color: #fff;
                                 font-size: 20px;
                                 transition: 0.4s;
 
                                 &:hover {
-                                    color: #c9c4ff;
+                                    color: #1545CB;
                                 }
                             }
                         }
@@ -1362,15 +1362,16 @@ footer {
                         p {
                             font-size: 13px;
                             color: #c9c9c9;
+                            font-weight: bold;
 
                             a {
                                 margin: 0 4px;
                                 font-weight: bold;
                                 font-size: 19px;
-                                color: #333;
+                                color: #fff;
 
                                 &:hover {
-                                    color: #7f87de;
+                                    color: #1545CB;
                                 }
                             }
                         }
@@ -1383,7 +1384,7 @@ footer {
                 width: 500px;
                 margin: 0 auto;
                 margin-top: 30px;
-                color: #fff;
+                color: #c9c9c9;
 
                 a {
                     color: #fff;
@@ -1403,7 +1404,7 @@ footer {
     }
 
     .facilities {
-        background-color: #7d7d7d;
+        background-color: #1e1b32;
         padding: 40px 0px;
 
         .container {
@@ -1419,7 +1420,8 @@ footer {
 
                 h2 {
                     a {
-                        color: #c9c4ff;
+                        color: #fff;
+                        font-weight: bold;
                     }
 
                     text-align: left;
@@ -1427,6 +1429,9 @@ footer {
 
                 p {
                     margin-bottom: 20px;
+                    line-height: 25px;
+                    font-weight: bold;
+                    color: #7e7d7d;
                 }
             }
 
@@ -1443,7 +1448,8 @@ footer {
                     width: 50%;
 
                     .content {
-                        background-color: #8f8c8c;
+                        border: 1px solid #7e7d7d;
+                        background-color: #26243c;
                         border-radius: 10px;
                         padding: 20px 20px 60px 20px;
                         transition: 0.4s;
@@ -1459,9 +1465,12 @@ footer {
 
                         h2 {
                             font-size: 18px;
+                            color: #fff;
+                            font-weight: bold;
+                            cursor: pointer;
 
                             a {
-                                color: #333;
+                                color: #fff;
 
                                 &:hover {
                                     color: #FE79A2;
@@ -1474,6 +1483,10 @@ footer {
 
                             margin: 20px 0px;
                         }
+
+                        p {
+                            color: #7e7d7d;
+                        }
                     }
                 }
             }
@@ -1482,15 +1495,15 @@ footer {
 
     .news {
         padding: 48px 0;
-        background-color: #7d7d7d;
+        background-color: #26243c;
 
         .container {
             overflow: hidden;
             padding: 48px 0;
 
-            h2,
             h3 {
                 text-align: center;
+                color: #7e7d7d;
             }
 
             .news-feed {
@@ -1686,10 +1699,31 @@ footer {
 
     .faculty {
         padding: 100px 0;
-        background-color: #7d7d7d;
+        background-color: #26243c;
 
         .container {
             overflow: hidden;
+
+            .text {
+                h3 {
+                    color: #7e7d7d;
+                    font-weight: bold;
+                    line-height: 30px;
+                }
+
+                h2 {
+                    color: #fff;
+                    font-weight: bold;
+                }
+
+                .more {
+                    p {
+                        color: #7e7d7d;
+                        font-weight: bold;
+                        line-height: 25px;
+                    }
+                }
+            }
 
             .teachers {
                 overflow: hidden;
@@ -1827,7 +1861,7 @@ footer {
     }
 
     .feedback {
-        background-color: #7d7d7d;
+        background-color: #1e1b32;
         padding: 96px 0;
 
         .container {
@@ -1835,7 +1869,8 @@ footer {
                 .card {
                     width: 32%;
                     padding: 40px 30px;
-                    background-color: #8f8c8c;
+                    background-color: #26243c;
+                    border-radius: 10px;
 
                     blockquote {
                         text-align: center;
@@ -1876,7 +1911,12 @@ footer {
                     .client-info {
                         h3 {
                             font-size: 20px;
-                            color: #161424;
+                            color: #fff;
+                            font-weight: bold;
+                        }
+
+                        p {
+                            color: #7e7d7d;
                         }
                     }
                 }
@@ -1903,7 +1943,7 @@ footer {
                         transition: .4s;
                         opacity: .5;
                         border-radius: 8px;
-                        background-color: #b1aedb;
+                        background-color: #1545CB;
 
                         &.active {
                             width: 25px;
@@ -1917,7 +1957,7 @@ footer {
 
     .sponsor {
         padding: 70px 0;
-        background-color: #a0a0a0;
+        background-color: #26243c;
 
         .container {
             .item {
@@ -1925,6 +1965,8 @@ footer {
                 padding: 0 15px;
 
                 img {
+                    background-color: #fff;
+                    border-radius: 10px;
                     padding: 0 18px;
                     transition: 0.1s;
                     opacity: 0.4;
@@ -1939,13 +1981,13 @@ footer {
     }
 
     footer {
-        background-color: #777777;
+        background-color: #26243c;
 
         a,
         p {
             font-size: 18px;
             line-height: 28px;
-            color: #c9c9c9;
+            color: #7e7d7d;
 
         }
 
@@ -1961,6 +2003,7 @@ footer {
             padding: 24px 0;
             text-align: center;
             border-top: 1px solid rgba(249, 249, 249, .1);
+            background-color: #26243c;
 
             a {
                 color: #fe79a2;
@@ -1973,7 +2016,9 @@ footer {
 
         .top-footer {
             padding: 72px 0;
-            background: #7d7d7d;
+            background: #26243c;
+            border-top: 0.5px solid #7e7d7d;
+            border-bottom: 0.5px solid #7e7d7d;
 
             .container {
                 h6 {

@@ -997,7 +997,7 @@ footer .top-footer .container .social a {
   height: 100%;
 }
 .darkmode-active .top-banner .content .clipPath svg path {
-  fill: #7d7d7d;
+  fill: #26243c;
 }
 .darkmode-active p {
   color: #fff;
@@ -1018,22 +1018,23 @@ footer .top-footer .container .social a {
   font-size: 14px;
   font-weight: 600;
   text-transform: uppercase;
-  color: #fff;
+  color: #7e7d7d;
   text-align: center;
 }
 .darkmode-active h2.title {
   text-align: center;
   font-size: 38px;
   font-weight: 700;
-  color: #c9c4ff;
+  color: #fff;
   margin: 15px 0px 40px 0px;
 }
 .darkmode-active .courses {
-  background-color: #7d7d7d;
+  background-color: #26243c;
   padding: 50px 0px;
 }
 .darkmode-active .courses .container .course-list .item {
-  background-color: #8f8c8c;
+  background-color: #26243c;
+  border: 1px solid #7e7d7d;
   border-radius: 5px;
   width: 32%;
 }
@@ -1099,19 +1100,19 @@ footer .top-footer .container .social a {
   margin-left: 5px;
 }
 .darkmode-active .courses .container .course-list .item-body .item-icon li i {
-  color: #c9c4ff;
+  color: #1545CB;
   font-size: 12px;
 }
 .darkmode-active .courses .container .course-list .item-body .item-title {
   margin: 15px 0px;
 }
 .darkmode-active .courses .container .course-list .item-body .item-title a {
-  color: #333;
+  color: #fff;
   font-size: 20px;
   transition: 0.4s;
 }
 .darkmode-active .courses .container .course-list .item-body .item-title a:hover {
-  color: #c9c4ff;
+  color: #1545CB;
 }
 .darkmode-active .courses .container .course-list .item-body .item-time {
   color: #c9c9c9;
@@ -1140,22 +1141,23 @@ footer .top-footer .container .social a {
 .darkmode-active .courses .container .course-list .item-footer p {
   font-size: 13px;
   color: #c9c9c9;
+  font-weight: bold;
 }
 .darkmode-active .courses .container .course-list .item-footer p a {
   margin: 0 4px;
   font-weight: bold;
   font-size: 19px;
-  color: #333;
+  color: #fff;
 }
 .darkmode-active .courses .container .course-list .item-footer p a:hover {
-  color: #7f87de;
+  color: #1545CB;
 }
 .darkmode-active .courses .container .view-all-course {
   text-align: center;
   width: 500px;
   margin: 0 auto;
   margin-top: 30px;
-  color: #fff;
+  color: #c9c9c9;
 }
 .darkmode-active .courses .container .view-all-course a {
   color: #fff;
@@ -1169,7 +1171,7 @@ footer .top-footer .container .social a {
   color: #d66486;
 }
 .darkmode-active .facilities {
-  background-color: #7d7d7d;
+  background-color: #1e1b32;
   padding: 40px 0px;
 }
 .darkmode-active .facilities .container {
@@ -1186,10 +1188,14 @@ footer .top-footer .container .social a {
   text-align: left;
 }
 .darkmode-active .facilities .container .left h2 a {
-  color: #c9c4ff;
+  color: #fff;
+  font-weight: bold;
 }
 .darkmode-active .facilities .container .left p {
   margin-bottom: 20px;
+  line-height: 25px;
+  font-weight: bold;
+  color: #7e7d7d;
 }
 .darkmode-active .facilities .container .right {
   width: 50%;
@@ -1203,7 +1209,8 @@ footer .top-footer .container .social a {
   width: 50%;
 }
 .darkmode-active .facilities .container .right .card .content {
-  background-color: #8f8c8c;
+  border: 1px solid #7e7d7d;
+  background-color: #26243c;
   border-radius: 10px;
   padding: 20px 20px 60px 20px;
   transition: 0.4s;
@@ -1217,10 +1224,13 @@ footer .top-footer .container .social a {
 }
 .darkmode-active .facilities .container .right .card .content h2 {
   font-size: 18px;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
   margin: 20px 0px;
 }
 .darkmode-active .facilities .container .right .card .content h2 a {
-  color: #333;
+  color: #fff;
 }
 .darkmode-active .facilities .container .right .card .content h2 a:hover {
   color: #FE79A2;
@@ -1228,17 +1238,20 @@ footer .top-footer .container .social a {
 .darkmode-active .facilities .container .right .card .content h2:hover {
   color: #FE79A2;
 }
+.darkmode-active .facilities .container .right .card .content p {
+  color: #7e7d7d;
+}
 .darkmode-active .news {
   padding: 48px 0;
-  background-color: #7d7d7d;
+  background-color: #26243c;
 }
 .darkmode-active .news .container {
   overflow: hidden;
   padding: 48px 0;
 }
-.darkmode-active .news .container h2,
 .darkmode-active .news .container h3 {
   text-align: center;
+  color: #7e7d7d;
 }
 .darkmode-active .news .container .news-feed {
   margin: 0 -15px;
@@ -1395,10 +1408,24 @@ footer .top-footer .container .social a {
 }
 .darkmode-active .faculty {
   padding: 100px 0;
-  background-color: #7d7d7d;
+  background-color: #26243c;
 }
 .darkmode-active .faculty .container {
   overflow: hidden;
+}
+.darkmode-active .faculty .container .text h3 {
+  color: #7e7d7d;
+  font-weight: bold;
+  line-height: 30px;
+}
+.darkmode-active .faculty .container .text h2 {
+  color: #fff;
+  font-weight: bold;
+}
+.darkmode-active .faculty .container .text .more p {
+  color: #7e7d7d;
+  font-weight: bold;
+  line-height: 25px;
 }
 .darkmode-active .faculty .container .teachers {
   overflow: hidden;
@@ -1509,13 +1536,14 @@ footer .top-footer .container .social a {
   margin-top: 24px;
 }
 .darkmode-active .feedback {
-  background-color: #7d7d7d;
+  background-color: #1e1b32;
   padding: 96px 0;
 }
 .darkmode-active .feedback .container .feedback-list .card {
   width: 32%;
   padding: 40px 30px;
-  background-color: #8f8c8c;
+  background-color: #26243c;
+  border-radius: 10px;
 }
 .darkmode-active .feedback .container .feedback-list .card blockquote {
   text-align: center;
@@ -1548,7 +1576,11 @@ footer .top-footer .container .social a {
 }
 .darkmode-active .feedback .container .feedback-list .card .client-info h3 {
   font-size: 20px;
-  color: #161424;
+  color: #fff;
+  font-weight: bold;
+}
+.darkmode-active .feedback .container .feedback-list .card .client-info p {
+  color: #7e7d7d;
 }
 .darkmode-active .feedback .container .button-list {
   margin-top: 30px;
@@ -1568,7 +1600,7 @@ footer .top-footer .container .social a {
   transition: 0.4s;
   opacity: 0.5;
   border-radius: 8px;
-  background-color: #b1aedb;
+  background-color: #1545CB;
 }
 .darkmode-active .feedback .container .button-list button span.active {
   width: 25px;
@@ -1576,13 +1608,15 @@ footer .top-footer .container .social a {
 }
 .darkmode-active .sponsor {
   padding: 70px 0;
-  background-color: #a0a0a0;
+  background-color: #26243c;
 }
 .darkmode-active .sponsor .container .item {
   max-width: 30%;
   padding: 0 15px;
 }
 .darkmode-active .sponsor .container .item img {
+  background-color: #fff;
+  border-radius: 10px;
   padding: 0 18px;
   transition: 0.1s;
   opacity: 0.4;
@@ -1591,13 +1625,13 @@ footer .top-footer .container .social a {
   opacity: 1;
 }
 .darkmode-active footer {
-  background-color: #777777;
+  background-color: #26243c;
 }
 .darkmode-active footer a,
 .darkmode-active footer p {
   font-size: 18px;
   line-height: 28px;
-  color: #c9c9c9;
+  color: #7e7d7d;
 }
 .darkmode-active footer a {
   transition: 0.1s;
@@ -1609,6 +1643,7 @@ footer .top-footer .container .social a {
   padding: 24px 0;
   text-align: center;
   border-top: 1px solid rgba(249, 249, 249, 0.1);
+  background-color: #26243c;
 }
 .darkmode-active footer .bot-footer a {
   color: #fe79a2;
@@ -1618,7 +1653,9 @@ footer .top-footer .container .social a {
 }
 .darkmode-active footer .top-footer {
   padding: 72px 0;
-  background: #7d7d7d;
+  background: #26243c;
+  border-top: 0.5px solid #7e7d7d;
+  border-bottom: 0.5px solid #7e7d7d;
 }
 .darkmode-active footer .top-footer .container h6 {
   font-size: 24px;
