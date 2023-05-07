@@ -1390,9 +1390,7 @@ footer .top-footer .container .social a {
   max-width: 45%;
   padding: 0 15px;
 }
-.darkmode-active .text h3 {
-  text-align: left;
-}
+.darkmode-active .text h3,
 .darkmode-active .text h2 {
   margin-top: 0;
   text-align: left;

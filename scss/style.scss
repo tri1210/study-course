@@ -1675,10 +1675,11 @@ footer {
         max-width: 45%;
         padding: 0 15px;
 
-        h3 {
-            text-align: left;
-        }
+        // h3 {
+        //     text-align: left;
+        // }
 
+        h3,
         h2 {
             margin-top: 0;
             text-align: left;
@@ -1988,7 +1989,6 @@ footer {
             font-size: 18px;
             line-height: 28px;
             color: #7e7d7d;
-
         }
 
         a {
